@@ -5,15 +5,51 @@
  */
 
 body {
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-bottom: 50px;
 	background: none;
 }
 
+body {
+	font-family: "Merriweather", Georgia, serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1.42857143;
+	color: #3A2C06;
+}
+
+.navbar-nav {
+	font-size: 12px;
+	font-family: "Merriweather Sans", Helvetica, sans-serif;
+}
+
+.navbar-brand {
+	font-family: "Merriweather Sans", Helvetica, sans-serif;
+}
+
 .full {
-  background: url(http://placehold.it/1920x1080) no-repeat center center fixed; 
+  background: url(../images/kathleen-and-reid.JPG) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: "Merriweather Sans", Helvetica, sans-serif;
+	font-weight: 800;
+	line-height: 1.1;
+	font-size: 48px;
+	color: #3A2C06;
 }
